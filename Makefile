@@ -1,5 +1,7 @@
 # Sources are all project source files, excluding MansOS files
-SOURCES = main.c
+SOURCES = \
+  src/main.c \
+  src/lib.c \
 
 # Module is the name of the main module buit by this makefile
 APPMOD = PrintCounter
