@@ -1,0 +1,60 @@
+{
+  "nodes": {
+    "flakeUtils": {
+      "locked": {
+        "lastModified": 1619345332,
+        "narHash": "sha256-qHnQkEp1uklKTpx3MvKtY6xzgcqXDsz5nLilbbuL+3A=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "2ebf2558e5bf978c7fb8ea927dfaed8fefab2e28",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "mansOS": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1614029531,
+        "narHash": "sha256-YrIRM19u5Wk0lfyMYfwxrToyWLHN39vZQ94tUmC5nA4=",
+        "owner": "edi-riga",
+        "repo": "MansOS",
+        "rev": "8e00cacfdbd486cd666b91e5e1f27f41af0718d2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "edi-riga",
+        "repo": "MansOS",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1619323048,
+        "narHash": "sha256-wiLspuRrtX4JPO2Xpd0ySsaN+g5i5BVfslCfcIcHSrU=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "1fe6ed37fd9beb92afe90671c0c2a662a03463dd",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flakeUtils": "flakeUtils",
+        "mansOS": "mansOS",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

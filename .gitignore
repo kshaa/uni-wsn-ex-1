@@ -1,0 +1,15 @@
+# Compiled firmware
+build/
+*.ihex
+
+# EDI Testbed CLI persistance
+.temp
+.project
+
+# Logs
+*.zip
+experiment*/
+
+# Analysis
+P*.pdf
+P*.md
